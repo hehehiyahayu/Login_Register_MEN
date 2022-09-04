@@ -10,7 +10,7 @@ const User = require("./models/user")
 // mongoose.set("useFindAndModify", false)
 // mongoose.set("useCreateIndex", true)
 // mongoose.set("useUnifiedTopology", true)
-mongoose.connect("mongodb://localhost:27017/users").then(() => {
+mongoose.connect("mongodb://127.0.0.1:27017/users").then(() => {
     console.log("connected to database");
 })
 
